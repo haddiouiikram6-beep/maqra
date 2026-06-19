@@ -1,0 +1,61 @@
+export const typography = {
+  displayLg: {
+    fontFamily: 'Plus Jakarta Sans',
+    fontSize: 57,
+    fontWeight: '700' as const,
+    lineHeight: 64,
+    letterSpacing: -0.25,
+  },
+  headlineLg: {
+    fontFamily: 'Plus Jakarta Sans',
+    fontSize: 32,
+    fontWeight: '600' as const,
+    lineHeight: 40,
+  },
+  headlineLgMobile: {
+    fontFamily: 'Plus Jakarta Sans',
+    fontSize: 28,
+    fontWeight: '600' as const,
+    lineHeight: 36,
+  },
+  headlineMd: {
+    fontFamily: 'Plus Jakarta Sans',
+    fontSize: 28,
+    fontWeight: '600' as const,
+    lineHeight: 36,
+  },
+  titleLg: {
+    fontFamily: 'Plus Jakarta Sans',
+    fontSize: 22,
+    fontWeight: '500' as const,
+    lineHeight: 28,
+  },
+  bodyLg: {
+    fontFamily: 'Be Vietnam Pro',
+    fontSize: 16,
+    fontWeight: '400' as const,
+    lineHeight: 24,
+    letterSpacing: 0.5,
+  },
+  bodyMd: {
+    fontFamily: 'Be Vietnam Pro',
+    fontSize: 14,
+    fontWeight: '400' as const,
+    lineHeight: 20,
+    letterSpacing: 0.25,
+  },
+  labelLg: {
+    fontFamily: 'Be Vietnam Pro',
+    fontSize: 14,
+    fontWeight: '500' as const,
+    lineHeight: 20,
+    letterSpacing: 0.1,
+  },
+  labelSm: {
+    fontFamily: 'Be Vietnam Pro',
+    fontSize: 11,
+    fontWeight: '500' as const,
+    lineHeight: 16,
+    letterSpacing: 0.5,
+  },
+};
